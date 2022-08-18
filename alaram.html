@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>alaram</title>
+        <link rel="stylesheet" href="files/alaram.css"/>
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <img src="files/clock.svg" alt="clock"/>
+            <h1>12:13:14</h1>
+            <div class="content">
+                <div class="column">
+                    <select>
+                        <option value="Hour" hidden selected>Hour</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <select>
+                        <option value="Minute" selected hidden>Minute</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <select>
+                        <option value="AM/PM" selected hidden>AM/PM</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn" value="set alaram">Set Alarm</button>
+        </div>
+        <script src="files/alaram.js"></script>
+    </body>
+</html>
